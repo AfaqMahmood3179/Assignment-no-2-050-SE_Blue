@@ -1,0 +1,781 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#login {
+    background-image: url("/images/1.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+#access {
+    background-color: rgba(0, 0, 0, 0.397);
+    height: 450px;
+    width: 300px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid goldenrod;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#access img {
+    background-color: white;
+    width: 90%;
+    height: auto;
+    margin-left: 15px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top: none;
+    border-style: groove;
+    border-color: silver;
+}
+
+#access h2 {
+    color: white;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+label[for=User] {
+    color: white;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+label[for=Pass] {
+    color: white;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+label[for=checkbox] {
+    color: white;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+input[type=text],
+input[type=Password] {
+    margin-top: 3px;
+    margin-left: 70px;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+input[type=checkbox] {
+    position: relative;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#submit {
+    height: 30px;
+    width: 90px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    #submit:hover {
+        background-color: black;
+        color: white;
+    }
+
+#border {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-left: 475px;
+    box-shadow: 2px 2px 15px #ffffff;
+}
+
+#complete {
+    background-image: url("/images/100272-05-2368-HDR.jpg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: none;
+    background-size: cover;
+}
+
+#navigation {
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+}
+
+#container h1 {
+    color: rgb(0, 0, 0);
+    margin-top: 3px;
+    text-shadow: 5px 5px 15px silver;
+}
+
+#container h2 {
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    text-shadow: 5px 5px 15px silver;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menu {
+    background-color: transparent;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#menubtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 32px;
+    cursor: pointer;
+    margin-top: 2.5px;
+    margin-left: 2px;
+}
+
+    #menubtn:hover {
+        background-color: rgba(255, 255, 255, 0.26);
+    }
+
+#scroll_menu {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 200px;
+    height: 350px;
+    margin-top: 90px;
+    margin-left: 10px;
+    position: absolute;
+    border-radius: 15px;
+    border: outset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home {
+    background-color: transparent;
+    color: white;
+    width: 195px;
+    height: 40px;
+    border-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+    #home:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+#rooms {
+    background-color: transparent;
+    color: white;
+    width: 195px;
+    height: 40px;
+    border-color: #ffffff;
+    border-top: none;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+    #rooms:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+#btn {
+    background-color: rgba(0, 0, 0, 0.397);
+    height: 50px;
+    width: 150px;
+    border: outset;
+    text-align: center;
+    font-size: medium;
+    border-radius: 15px;
+    color: white;
+    margin-top: 430px;
+    margin-left: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+    #btn:hover {
+        background-color: black;
+        color: white;
+    }
+
+#book {
+    position: fixed;
+    background-color: rgba(43, 42, 42, 0.397);
+    height: 40px;
+    width: 120px;
+    border: outset;
+    text-align: center;
+    font-size: medium;
+    border-radius: 12px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 1150px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+    #book:hover {
+        background-color: black;
+        color: white;
+    }
+
+#center_div {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.253);
+    height: 300px;
+    width: 600px;
+    border: outset;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180PX;
+    margin-left: 385PX;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    #center_div h3 {
+        margin-top: 20px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #center_div h1 {
+        margin-top: 80px;
+        color: white;
+    }
+
+#f_container {
+    background-image: url("/images/77742893-zimmerreservierungsformular-an-der-hotelrezeption-im-hintergrund.webp");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+    #f_container img {
+        height: 80px;
+        width: 130px;
+        position: absolute;
+        display: block;
+        margin-top: -5px;
+    }
+
+#navi {
+    background-color: rgba(92, 92, 92, 0.753);
+    height: 70px;
+    width: 1300px;
+    border-bottom-right-radius: 150px;
+    background-position: center;
+    position: absolute;
+}
+
+#bar {
+    border: outset;
+    background-color: transparent;
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    justify-content: center;
+    margin-left: 850px;
+    margin-top: 90px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 15px silver;
+}
+
+#entry1 {
+    background-color: rgba(43, 42, 42, 0.397);
+    height: 40px;
+    width: 120px;
+    border: outset;
+    font-size: medium;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #entry1:hover {
+        background-color: rgb(42, 1, 155);
+        color: white;
+    }
+
+#bar h3 {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#bar input {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#bar select {
+    margin-left: 100px;
+}
+
+#Room_D {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+
+#R_Nav {
+    margin-top: 10px;
+    background-color: rgb(141, 140, 139);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border: outset;
+    border-color: rgb(5, 5, 5);
+    border-radius: 0px;
+    color: white;
+}
+
+#Rooms_nav {
+    height: 230px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(199, 198, 198);
+}
+
+#style_room {
+    height: 200px;
+    width: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 33px;
+    margin-top: 25px;
+    background-repeat: no-repeat;
+}
+
+#style_room1 {
+    height: 200px;
+    width: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 65px;
+    margin-top: 25px;
+    background-repeat: no-repeat;
+}
+
+#style_room2 {
+    height: 200px;
+    width: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 55px;
+    margin-top: 25px;
+    background-repeat: no-repeat;
+}
+
+#text {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(199, 198, 198);
+}
+
+#text1 {
+    margin-left: 110px;
+}
+
+#text2 {
+    margin-left: 140px;
+}
+
+#text3 {
+    margin-left: 150px;
+}
+
+#text4 {
+    margin-left: 140px;
+}
+
+#Rooms_nav2 {
+    height: 230px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(199, 198, 198);
+}
+
+#style_room3 {
+    height: 200px;
+    width: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 210px;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+}
+
+#style_room4 {
+    height: 200px;
+    width: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 55px;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+}
+
+#style_room5 {
+    height: 200px;
+    width: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+}
+
+#text5 {
+    margin-left: 250px;
+}
+
+#text6 {
+    margin-left: 100px;
+}
+
+#text7 {
+    margin-left: 90px;
+}
+
+#text h2 {
+    color: rgb(0, 0, 0);
+}
+
+#Services {
+    background-color: rgb(204, 243, 240);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border: outset;
+    border-color: black;
+    border-radius: 0px;
+}
+
+#our_services {
+    height: 500px;
+    width: 100%;
+}
+
+#service1 {
+    height: 500px;
+    width: 64%;
+    background-color: rgb(94, 107, 103);
+}
+
+#service2 {
+    height: 330px;
+    width: 100%;
+    background-color: rgba(156, 156, 156, 0.103);
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+#ser_text {
+    height: 300px;
+    width: 450px;
+    justify-content: center;
+    position: absolute;
+    margin-left: 100px;
+    color: white;
+    margin-top: 150px;
+}
+
+    #ser_text h1 {
+        color: rgb(255, 174, 0);
+    }
+
+#service1 img {
+    height: 350px;
+    width: 800px;
+    margin-top: 75px;
+    margin-left: 40%;
+}
+
+#gal_container {
+    height: 100vh;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#gal_nav {
+    height: 60px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    font-size: larger;
+    color: goldenrod;
+    border: dashed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pic {
+    margin-top: 5px;
+    height: 300px;
+    width: 450px;
+    background-image: url("/images/white-stairs-room-fire-wallpaper-preview.jpg");
+    background-size: cover;
+    display: inline-flex;
+    margin-left: 3px;
+}
+
+#pic1 {
+    height: 300px;
+    width: 450px;
+    background-image: url("/images/room-home-luxury-style-wallpaper-preview.jpg");
+    background-size: cover;
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+#pic2 {
+    height: 300px;
+    width: 440px;
+    background-image: url("/images/home-cinema-movie-theater-interior-design-wallpaper-preview.jpg");
+    background-size: cover;
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+#pic3 {
+    height: 550px;
+    width: 460px;
+    background-image: url("/images/luxurious-hotel-room-wallpaper-preview.jpg");
+    background-size: cover;
+    flex-direction: column;
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+#pic4 {
+    height: 550px;
+    width: 460px;
+    background-image: url("/images/united-kingdom-london-bed-night.jpg");
+    background-size: cover;
+    margin-left: 3px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#pic5 {
+    height: 550px;
+    width: 420px;
+    background-image: url("/images/furniture-room-home-sleep.jpg");
+    background-size: cover;
+    margin-left: 3px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#pic6 {
+    height: 300px;
+    width: 450px;
+    background-image: url("/images/window-house-door-inside.jpg");
+    background-size: cover;
+    flex-direction: column;
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+#pic7 {
+    height: 300px;
+    width: 450px;
+    background-image: url("/images/inside-of-water-bungalow-four-seasons-maldives-white-fabric-sofa-set-black-wooden-coffee-maker-and-brown-and-black-wooden-dresser-wallpaper-preview.jpg");
+    background-size: cover;
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+#pic8 {
+    height: 300px;
+    width: 439px;
+    background-image: url("/images/architecture-building.jpg");
+    background-size: cover;
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+#pic9 {
+    height: 350px;
+    width: 460px;
+    background-image: url("/images/architecture-ceiling-chairs-chandelier.jpg");
+    background-size: cover;
+    flex-direction: column;
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+#pic10 {
+    height: 350px;
+    width: 439px;
+    background-image: url("/images/architecture-building.jpg");
+    background-size: cover;
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+#pic10 {
+    height: 350px;
+    width: 439px;
+    background-image: url("/images/sofa-living-room-fireplace-design-wallpaper-preview.jpg");
+    background-size: cover;
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+#pic11 {
+    height: 350px;
+    width: 439px;
+    background-image: url("/images/white-fabric-loveseat-with-two-flower-centerpieces-on-the-side.jpg");
+    background-size: cover;
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+#footer {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(199, 199, 199);
+    display: flex;
+}
+
+#f_section1 {
+    height: 250px;
+    width: 19%;
+    background-color: rgb(199, 199, 199);
+}
+
+#f_section2 {
+    height: 250px;
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(199, 199, 199);
+}
+
+#f_section3 {
+    height: 250px;
+    width: 27%;
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#f_section4 {
+    height: 250px;
+    width: 27%;
+    display: block;
+}
+
+#f_section1 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 190px;
+    border: outset;
+    border-color: goldenrod;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#f_pic {
+    height: 30px;
+    border-radius: 20px;
+    background: transparent;
+}
+
+#f_button {
+    border-radius: 20px;
+    background: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#f_section4 h1 {
+    position: absolute;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}

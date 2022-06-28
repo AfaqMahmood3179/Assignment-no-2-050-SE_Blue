@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\1.jpg" />
+    <None Include="wwwroot\images\100272-05-2368-HDR.jpg" />
+    <None Include="wwwroot\images\588a6507d06f6719692a2d15.png" />
+    <None Include="wwwroot\images\77742893-zimmerreservierungsformular-an-der-hotelrezeption-im-hintergrund.webp" />
+    <None Include="wwwroot\images\9-Facilities-That-A-Hotel-Must-Offer-To-Its-Guests-infographic.png" />
+    <None Include="wwwroot\images\architecture-building.jpg" />
+    <None Include="wwwroot\images\architecture-ceiling-chairs-chandelier.jpg" />
+    <None Include="wwwroot\images\bed-bedroom-chair-style-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\bedroom-bed-window-pillow-wallpaper-thumb.jpg" />
+    <None Include="wwwroot\images\download %281%29.jpg" />
+    <None Include="wwwroot\images\download %282%29.jpg" />
+    <None Include="wwwroot\images\download.jpg" />
+    <None Include="wwwroot\images\eltham-palace-south-london-sitting-room-cautauld-family-home.jpg" />
+    <None Include="wwwroot\images\flowers-design-the-city-style-wallpaper-thumb.jpg" />
+    <None Include="wwwroot\images\furniture-room-home-sleep.jpg" />
+    <None Include="wwwroot\images\gallery.png" />
+    <None Include="wwwroot\images\home-cinema-movie-theater-interior-design-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\hotel-room-bed-furniture-wallpaper-thumb.jpg" />
+    <None Include="wwwroot\images\hotel-room-reef-view-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\images %281%29.jpg" />
+    <None Include="wwwroot\images\images %282%29.jpg" />
+    <None Include="wwwroot\images\images.jpg" />
+    <None Include="wwwroot\images\images.png" />
+    <None Include="wwwroot\images\inside-of-water-bungalow-four-seasons-maldives-white-fabric-sofa-set-black-wooden-coffee-maker-and-brown-and-black-wooden-dresser-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\life-resort-hotel-resort-hotel-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\life-resort-travel-vacation-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\luxurious-hotel-room-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\NicePng_down-arrow-png_125010.png" />
+    <None Include="wwwroot\images\Picture1.png" />
+    <None Include="wwwroot\images\pngwing.com %284%29.png" />
+    <None Include="wwwroot\images\pngwing.com %285%29.png" />
+    <None Include="wwwroot\images\pngwing.com %286%29.png" />
+    <None Include="wwwroot\images\pngwing.com %287%29.png" />
+    <None Include="wwwroot\images\pngwing.com %288%29.png" />
+    <None Include="wwwroot\images\pngwing.com %289%29.png" />
+    <None Include="wwwroot\images\pngwing.com.png" />
+    <None Include="wwwroot\images\reception-hotel-business-service.jpg" />
+    <None Include="wwwroot\images\room-home-luxury-style-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\Screenshot 2022-04-20 215242.png" />
+    <None Include="wwwroot\images\sofa-living-room-fireplace-design-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\splendid-bedroom-design-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\stunning-bedroom-design-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\tray-breakfast-brunch-juice-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\united-kingdom-london-bed-night.jpg" />
+    <None Include="wwwroot\images\Untitled-1.psd" />
+    <None Include="wwwroot\images\white-fabric-loveseat-with-two-flower-centerpieces-on-the-side.jpg" />
+    <None Include="wwwroot\images\white-flowers-design-style-wallpaper-thumb.jpg" />
+    <None Include="wwwroot\images\white-stairs-room-fire-wallpaper-preview.jpg" />
+    <None Include="wwwroot\images\window-house-door-inside.jpg" />
+  </ItemGroup>
+
+</Project>
